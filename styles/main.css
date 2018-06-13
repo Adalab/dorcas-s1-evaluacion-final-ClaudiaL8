@@ -4,6 +4,7 @@ body {
 
 .page__header {
   position: fixed;
+  z-index: 1;
 }
 
 .btn {
@@ -80,6 +81,115 @@ body {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   bottom: 53px;
+}
+
+.secinsomnia {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.secinsomnia__p {
+  font-family: 'Roboto',sans-serif;
+  font-size: 14px;
+  color: #8ccbea;
+}
+
+.secinsomnia__title {
+  font-family: 'RobotoSlab', sans-serif;
+  font-size: 24px;
+  width: 260px;
+}
+
+.secinsomnia__p2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #4a4a4a;
+}
+
+.sec__btn {
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  border: solid 2px #f26002;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.enlgo {
+  font-family: 'Roboto-Medium',sans-serif;
+  font-size: 20px;
+  color: #f26002;
+  text-decoration: none;
+}
+
+.secreasons {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  text-align: center;
+  background: #eff9ff;
+  margin-top: 45px;
+  padding-bottom: 150px;
+  position: relative;
+}
+
+.secreasons__title {
+  font-family: 'RobotoSlab',sans-serif;
+  font-size: 24px;
+}
+
+.secreasons__list {
+  list-style: none;
+  padding: 0;
+}
+
+.list__title {
+  font-family: 'RobotoSlab',sans-serif;
+  font-size: 18px;
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
+.list__p {
+  font-family: 'Roboto',sans-serif;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.sec__secreasons__btn {
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: #f26002;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-top: 45px;
+}
+
+.reasonbtn {
+  font-family: 'Roboto',sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
