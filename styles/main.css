@@ -124,8 +124,9 @@ body {
 }
 
 .enlgo {
-  font-family: 'Roboto-Medium',sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-size: 20px;
+  font-weight: 500;
   color: #f26002;
   text-decoration: none;
 }
@@ -197,12 +198,40 @@ body {
   background-color: #304268;
   padding-top: 38px;
   padding-bottom: 30px;
+  position: relative;
 }
 
 .footer__p {
   text-align: center;
   color: white;
   margin-top: 0;
+}
+
+.heart {
+  color: red;
+}
+
+.footer__btn {
+  background: white;
+  width: 45px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 110px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 /*# sourceMappingURL=main.css.map */
