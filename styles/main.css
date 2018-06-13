@@ -188,8 +188,21 @@ body {
 .reasonbtn {
   font-family: 'Roboto',sans-serif;
   font-size: 20px;
+  font-weight: 500;
   text-decoration: none;
   color: white;
+}
+
+.page__footer {
+  background-color: #304268;
+  padding-top: 38px;
+  padding-bottom: 30px;
+}
+
+.footer__p {
+  text-align: center;
+  color: white;
+  margin-top: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
