@@ -1,0 +1,43 @@
+.secinsomnia{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.secinsomnia__p{
+  font-family: 'Roboto',sans-serif;
+  font-size: 14px;
+  color: #8ccbea;
+
+}
+.secinsomnia__title{
+  font-family: 'RobotoSlab', sans-serif;
+  font-size: 24px;
+  width: 260px;
+
+}
+.secinsomnia__p2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color:#4a4a4a;
+}
+.sec__btn{
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  border: solid 2px #f26002;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  &:hover{
+    border: solid 2px #0271bc;
+    text-decoration: underline;
+  }
+  }
+.enlgo{
+  font-family: 'Roboto',sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #f26002;
+  text-decoration: none;
+  transition: border-color ease 1s;
+}

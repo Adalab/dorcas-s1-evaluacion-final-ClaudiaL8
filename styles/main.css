@@ -1,7 +1,3 @@
-body {
-  margin: 0;
-}
-
 .page__header {
   position: fixed;
   z-index: 1;
@@ -22,6 +18,46 @@ body {
 .btnmenu {
   -ms-flex-item-align: center;
   align-self: center;
+}
+
+.page__footer {
+  background-color: #304268;
+  padding-top: 38px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.footer__p {
+  text-align: center;
+  color: white;
+  margin-top: 0;
+}
+
+.heart {
+  color: red;
+}
+
+.footer__btn {
+  background: white;
+  width: 45px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 110px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .hero {
@@ -123,12 +159,19 @@ body {
   margin-top: 30px;
 }
 
+.sec__btn:hover {
+  border: solid 2px #0271bc;
+  text-decoration: underline;
+}
+
 .enlgo {
   font-family: 'Roboto',sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: #f26002;
   text-decoration: none;
+  -webkit-transition: border-color ease 1s;
+  transition: border-color ease 1s;
 }
 
 .secreasons {
@@ -186,6 +229,11 @@ body {
   margin-top: 45px;
 }
 
+.sec__secreasons__btn:hover {
+  background-color: #0271bc;
+  text-decoration: underline;
+}
+
 .reasonbtn {
   font-family: 'Roboto',sans-serif;
   font-size: 20px;
@@ -194,44 +242,8 @@ body {
   color: white;
 }
 
-.page__footer {
-  background-color: #304268;
-  padding-top: 38px;
-  padding-bottom: 30px;
-  position: relative;
-}
-
-.footer__p {
-  text-align: center;
-  color: white;
-  margin-top: 0;
-}
-
-.heart {
-  color: red;
-}
-
-.footer__btn {
-  background: white;
-  width: 45px;
-  height: 45px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  bottom: 110px;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+body {
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
