@@ -2,23 +2,28 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .secinsomnia__p{
   font-family: 'Roboto',sans-serif;
   font-size: 14px;
   color: #8ccbea;
+  margin-top: 30px;
 
 }
 .secinsomnia__title{
   font-family: 'RobotoSlab', sans-serif;
   font-size: 24px;
   width: 260px;
-
+  margin-top: 12px;
 }
+
 .secinsomnia__p2{
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color:#4a4a4a;
+  margin-top: 15px;
 }
+
 .sec__btn{
   width: 76px;
   height: 45px;
@@ -28,16 +33,36 @@
   justify-content: center;
   align-items: center;
   margin-top: 30px;
-  &:hover{
-    border: solid 2px #0271bc;
-    text-decoration: underline;
+  transition: border-color ease 1s, box-shadow ease 1s;
+  &:hover {
+  border: solid 2px #0271bc;
+  box-shadow: 1px 1px 9px black;
   }
-  }
+}
+.sec__btn:hover .enlgo{
+  text-decoration: underline;
+  color:#0271bc;
+
+}
 .enlgo{
   font-family: 'Roboto',sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: #f26002;
   text-decoration: none;
-  transition: border-color ease 1s;
+  transition: color ease 1s;
+}
+@media all and (min-width: 768px) {
+.secinsomnia{
+  padding-left: 39px;
+  padding-right: 39px;
+}
+.secinsomnia__title{
+font-size: 26px;
+}
+.secinsomnia__p2{
+font-size: 20px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
 }
