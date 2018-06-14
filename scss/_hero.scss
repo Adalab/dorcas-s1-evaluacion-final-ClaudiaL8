@@ -20,9 +20,11 @@
   text-align: center;
   text-transform: uppercase;
   margin: 0;
+  width: 290px;
+  line-height: 55px;
 }
 .hero__parrafo{
-  margin-top: 10px;
+  margin-top: 15px;
   color: white;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -43,18 +45,26 @@
   @media all and (min-width: 768px) {
     .hero__title{
       font-size: 80px;
+      width: 690px;
+      line-height: 106px;
     }
     .hero__parrafo{
       font-size: 24px;
     }
+    .hero__btn{
+      bottom: 45px;
+    }
 }
-@media all and (min-width:1200px){
+@media all and (min-width:1024px){
   .hero__title{
     font-size: 100px;
       width: 730px;
       line-height: 132px;
   }
   .hero__parrafo{
-
+font-size: 24px;
+  }
+  .hero__btn{
+      bottom: 13px;
   }
 }

@@ -89,10 +89,12 @@
   text-align: center;
   text-transform: uppercase;
   margin: 0;
+  width: 290px;
+  line-height: 55px;
 }
 
 .hero__parrafo {
-  margin-top: 10px;
+  margin-top: 15px;
   color: white;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -134,8 +136,8 @@
 .secinsomnia__title {
   font-family: 'RobotoSlab', sans-serif;
   font-size: 24px;
-  width: 260px;
   margin-top: 12px;
+  line-height: 30px;
 }
 
 .secinsomnia__p2 {
@@ -268,10 +270,16 @@ body {
 @media all and (min-width: 768px) {
   .hero__title {
     font-size: 80px;
+    width: 690px;
+    line-height: 106px;
   }
 
   .hero__parrafo {
     font-size: 24px;
+  }
+
+  .hero__btn {
+    bottom: 45px;
   }
 
   .secinsomnia {
@@ -279,8 +287,13 @@ body {
     padding-right: 39px;
   }
 
+  .secinsomnia__p {
+    font-size: 14px;
+  }
+
   .secinsomnia__title {
     font-size: 26px;
+    line-height: 45px;
   }
 
   .secinsomnia__p2 {
@@ -316,8 +329,7 @@ body {
 
   .secreasons__list {
     display: grid;
-    grid-template-columns: 0,8fr 0,8fr 0,8fr;
-    grid-template-rows: 30%;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 100%;
     grid-gap: 27px;
     margin: 0;
@@ -326,28 +338,60 @@ body {
   .list__p {
     margin-top: 14px;
   }
-
-  .list1 {
-    grid-column: 1 / 1;
-    grid-row: 1 / 1;
-  }
-
-  .list2 {
-    grid-column: 2 / 2;
-    grid-row: 1 / 1;
-  }
-
-  .list3 {
-    grid-column: 3 / 3;
-    grid-row: 1 / 1;
-  }
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1024px) {
   .hero__title {
     font-size: 100px;
     width: 730px;
     line-height: 132px;
+  }
+
+  .hero__parrafo {
+    font-size: 24px;
+  }
+
+  .hero__btn {
+    bottom: 13px;
+  }
+
+  .secinsomnia {
+    padding-left: 275px;
+    padding-right: 275px;
+  }
+
+  .secinsomnia__p {
+    font-size: 16px;
+    margin-top: 60px;
+  }
+
+  .secinsomnia__title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .secinsomnia__p2 {
+    font-size: 20px;
+    width: 730px;
+    margin-top: 30px;
+  }
+
+  .sec__btn {
+    bottom: 60px;
+  }
+
+  .secreasons {
+    padding: 60px 80px 165px;
+  }
+
+  .secreasons__title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .sec__secreasons__btn {
+    margin-top: 60px;
+    bottom: 45px;
   }
 }
 

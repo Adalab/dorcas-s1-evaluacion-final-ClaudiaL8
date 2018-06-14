@@ -13,8 +13,8 @@
 .secinsomnia__title{
   font-family: 'RobotoSlab', sans-serif;
   font-size: 24px;
-  width: 260px;
   margin-top: 12px;
+  line-height: 30px;
 }
 
 .secinsomnia__p2{
@@ -57,12 +57,38 @@
   padding-left: 39px;
   padding-right: 39px;
 }
+.secinsomnia__p{
+  font-size: 14px;
+}
 .secinsomnia__title{
 font-size: 26px;
+line-height: 45px;
 }
 .secinsomnia__p2{
 font-size: 20px;
 margin-top: 30px;
 margin-bottom: 30px;
+}
+}
+@media all and (min-width: 1024px) {
+  .secinsomnia{
+padding-left: 275px;
+padding-right:275px;
+  }
+  .secinsomnia__p{
+    font-size: 16px;
+    margin-top: 60px;
+  }
+.secinsomnia__title{
+font-size: 32px;
+line-height: 45px;
+}
+  .secinsomnia__p2{
+font-size: 20px;
+width: 730px;
+margin-top: 30px;
+  }
+  .sec__btn{
+    bottom: 60px;
 }
 }
