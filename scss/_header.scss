@@ -8,7 +8,23 @@
   background-color: $colorcerulean;
   display: flex;
   justify-content: center;
+  animation-duration: 3s;
+  animation-name: boton;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
 }
-.btnmenu{
-  align-self: center;
+
+@keyframes boton {
+  from {
+    transform: scale(100);
+    opacity: 0;
+    color: $colorwhite;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
+  .btnmenu{
+    align-self: center;
+  }

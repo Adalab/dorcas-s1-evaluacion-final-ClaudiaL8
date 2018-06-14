@@ -12,6 +12,7 @@
 .secreasons__title{
   font-family: 'RobotoSlab',sans-serif;
   font-size: 24px;
+  margin: 0;
 }
 
 .secreasons__list{
@@ -63,9 +64,7 @@
 }
 @media all and (min-width:768px){
   .secreasons{
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 30px;
+padding: 30px 40px 0;
   }
   .secreasons__title{
     font-size: 26px;
@@ -96,18 +95,23 @@
 @media all and (min-width: 1024px){
   .secreasons{
   padding: 60px 80px 165px;
+  margin-top: 60px;
+  text-align: center;
   }
   .secreasons__title{
     font-size: 32px;
     line-height: 45px;
+    width: 360px;
+    margin:0 auto;
   }
   .sec__secreasons__btn{
+    width: 360px;
     margin-top: 60px;
     bottom: 45px;
 }
 .list__p{
   line-height: 30px;
   width: 350px;
-  margin-bottom:0;
+  margin:0 auto;
 }
 }

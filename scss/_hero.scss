@@ -1,6 +1,6 @@
 .hero{
   background-image: url("../images/cover.jpg");
-  background-position: center center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -42,29 +42,29 @@
   transform: translateX(-50%);
   bottom: 53px;
 }
-  @media all and (min-width: 768px) {
-    .hero__title{
-      font-size: 80px;
-      width: 690px;
-      line-height: 106px;
-    }
-    .hero__parrafo{
-      font-size: 24px;
-    }
-    .hero__btn{
-      bottom: 45px;
-    }
+@media all and (min-width: 768px) {
+  .hero__title{
+    font-size: 80px;
+    width: 690px;
+    line-height: 106px;
+  }
+  .hero__parrafo{
+    font-size: 24px;
+  }
+  .hero__btn{
+    bottom: 45px;
+  }
 }
 @media all and (min-width:1024px){
   .hero__title{
     font-size: 100px;
-      width: 730px;
-      line-height: 132px;
+    width: 730px;
+    line-height: 132px;
   }
   .hero__parrafo{
-font-size: 24px;
+    font-size: 24px;
   }
   .hero__btn{
-      bottom: 13px;
+    bottom: 13px;
   }
 }

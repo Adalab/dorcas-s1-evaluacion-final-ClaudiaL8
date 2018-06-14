@@ -13,6 +13,14 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: boton;
+  animation-name: boton;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
 }
 
 .btnmenu {
@@ -25,16 +33,6 @@
   padding-top: 38px;
   padding-bottom: 30px;
   position: relative;
-}
-
-.footer__p {
-  text-align: center;
-  color: #ffffff;
-  margin-top: 0;
-}
-
-.heart {
-  color: red;
 }
 
 .footer__btn {
@@ -55,14 +53,28 @@
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  bottom: 110px;
+  bottom: 95px;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
+.footer__p {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.copy {
+  margin-bottom: 0;
+}
+
+.heart {
+  color: red;
+}
+
 .hero {
   background-image: url("../images/cover.jpg");
-  background-position: center center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -203,6 +215,7 @@
 .secreasons__title {
   font-family: 'RobotoSlab',sans-serif;
   font-size: 24px;
+  margin: 0;
 }
 
 .secreasons__list {
@@ -303,9 +316,7 @@ body {
   }
 
   .secreasons {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 30px;
+    padding: 30px 40px 0;
   }
 
   .secreasons__title {
@@ -382,14 +393,19 @@ body {
 
   .secreasons {
     padding: 60px 80px 165px;
+    margin-top: 60px;
+    text-align: center;
   }
 
   .secreasons__title {
     font-size: 32px;
     line-height: 45px;
+    width: 360px;
+    margin: 0 auto;
   }
 
   .sec__secreasons__btn {
+    width: 360px;
     margin-top: 60px;
     bottom: 45px;
   }
@@ -397,7 +413,37 @@ body {
   .list__p {
     line-height: 30px;
     width: 350px;
-    margin-bottom: 0;
+    margin: 0 auto;
+  }
+}
+
+@-webkit-keyframes boton {
+  from {
+    -webkit-transform: scale(100);
+    transform: scale(100);
+    opacity: 0;
+    color: #ffffff;
+  }
+
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes boton {
+  from {
+    -webkit-transform: scale(100);
+    transform: scale(100);
+    opacity: 0;
+    color: #ffffff;
+  }
+
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
   }
 }
 

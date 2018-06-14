@@ -4,14 +4,8 @@
  padding-bottom: 30px;
  position: relative;
 }
-.footer__p{
-text-align: center;
-color: $colorwhite;
-margin-top: 0;
-}
-.heart{
-  color:red;
-}
+
+
 .footer__btn{
   background: $colorwhite;
   width: 45px;
@@ -23,6 +17,17 @@ margin-top: 0;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 110px;
+  bottom: 95px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+.footer__p{
+text-align: center;
+color: $colorwhite;
+margin-top: 0;
+}
+.copy{
+  margin-bottom: 0;
+}
+.heart{
+  color:red;
 }
