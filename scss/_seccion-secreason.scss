@@ -38,7 +38,7 @@
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
-  background-color: #f26002;
+  background-color: $colorbright-orange;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,7 @@
   margin-top: 45px;
   transition: background-color ease 1s, box-shadow ease 1s;
   &:hover {
-    background-color: #0271bc;
+    background-color: $colorcerulean;
     text-decoration: underline;
     box-shadow: 1px 1px 9px black;
   }
@@ -59,7 +59,7 @@
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
-  color: white;
+  color: $colorwhite;
 }
 @media all and (min-width:768px){
   .secreasons{
@@ -105,6 +105,9 @@
     margin-top: 60px;
     bottom: 45px;
 }
-.secreasons__list{
+.list__p{
+  line-height: 30px;
+  width: 350px;
+  margin-bottom:0;
 }
 }

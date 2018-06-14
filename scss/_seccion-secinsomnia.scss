@@ -6,7 +6,7 @@
 .secinsomnia__p{
   font-family: 'Roboto',sans-serif;
   font-size: 14px;
-  color: #8ccbea;
+  color: $colorlightblue;
   margin-top: 30px;
 
 }
@@ -28,27 +28,27 @@
   width: 76px;
   height: 45px;
   border-radius: 22.5px;
-  border: solid 2px #f26002;
+  border: solid 2px $colorbright-orange;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
   transition: border-color ease 1s, box-shadow ease 1s;
   &:hover {
-  border: solid 2px #0271bc;
+  border: solid 2px $colorcerulean;
   box-shadow: 1px 1px 9px black;
   }
 }
 .sec__btn:hover .enlgo{
   text-decoration: underline;
-  color:#0271bc;
+  color:$colorcerulean;
 
 }
 .enlgo{
   font-family: 'Roboto',sans-serif;
   font-size: 20px;
   font-weight: 500;
-  color: #f26002;
+  color: $colorbright-orange;
   text-decoration: none;
   transition: color ease 1s;
 }

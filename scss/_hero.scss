@@ -15,7 +15,7 @@
 }
 .hero__title{
   font-size: 42px;
-  color: white;
+  color: $colorwhite;
   font-family: 'RobotoSlab', sans-serif;
   text-align: center;
   text-transform: uppercase;
@@ -25,12 +25,12 @@
 }
 .hero__parrafo{
   margin-top: 15px;
-  color: white;
+  color: $colorwhite;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
 .hero__btn{
-  background: white;
+  background: $colorwhite;
   width: 45px;
   height: 45px;
   display: flex;

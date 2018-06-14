@@ -1,19 +1,19 @@
 .page__footer{
- background-color: #304268;
+ background-color: $colordark-grey-blue;
  padding-top: 38px;
  padding-bottom: 30px;
  position: relative;
 }
 .footer__p{
 text-align: center;
-color: white;
+color: $colorwhite;
 margin-top: 0;
 }
 .heart{
   color:red;
 }
 .footer__btn{
-  background: white;
+  background: $colorwhite;
   width: 45px;
   height: 45px;
   display: flex;
