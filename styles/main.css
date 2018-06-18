@@ -213,7 +213,7 @@
 }
 
 .secreasons__title {
-  font-family: 'RobotoSlab',sans-serif;
+  font-family: 'Roboto Slab',sans-serif;
   font-size: 24px;
   margin: 0;
 }
@@ -274,6 +274,14 @@
   font-weight: 500;
   text-decoration: none;
   color: #ffffff;
+}
+
+.ejercicio {
+  background-color: #f26002;
+  padding: 10px 20px;
+  color: #ffffff;
+  -webkit-transition: background-color ease 1s;
+  transition: background-color ease 1s;
 }
 
 body {
@@ -341,13 +349,25 @@ body {
   .secreasons__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 100%;
     grid-gap: 27px;
     margin: 0;
   }
 
   .list__p {
     margin-top: 14px;
+  }
+
+  .ejercicio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #0271bc;
   }
 }
 

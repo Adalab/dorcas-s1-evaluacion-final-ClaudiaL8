@@ -1,0 +1,15 @@
+.ejercicio{
+  background-color: $colorbright-orange;
+  padding: 10px 20px;
+  color:$colorwhite;
+  transition: background-color ease 1s;
+}
+@media all and (min-width: 768px) {
+.ejercicio{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $colorcerulean;
+
+}
+}
